@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    background-color: #fffefc;
+}
+
+header{
+    height:40px;
+    background-color: #e16259;
+    position: relative;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    color : whitesmoke;
+}
+
+footer{
+    height:30px;
+    background-color: #e16259;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    color : whitesmoke;
+}
+
+
+header div{
+    position: absolute;
+    top:25%;
+    width: 100%;
+}
+
+.main{
+    height: 500px;
+    background-image: url('./img/silicon.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+
+}
+
+.backdrop{
+    height: 500px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.main-info{
+    position: absolute;
+    top:10%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.main-img-profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.main-img-profile:hover{
+    cursor: pointer;
+    height: 225px;
+    width: 225px;
+    border:5px solid #e16259;
+}
+
+.my-name{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.sub-my-name{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.social-button{
+    position: relative;
+    height: 40px;
+    width: 150px;
+    padding: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    border: 0px;
+    border-radius: 15px;
+    margin: 10px;
+    
+}
+
+.social-button:hover{
+    cursor: pointer;
+}
+
+.social-button-text{
+    position: absolute;
+    top:25%;
+}
+
+.facebook-btn{
+    background-color: #3B5998;
+    color: white;
+}
+
+.facebook-btn:hover{
+    background-color: #4665a7;
+}
+
+.tel-btn{
+    background-color: #fdf5f2;
+}
+
+.tel-btn:hover{
+    background-color: #e9ddd9;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+a { color: inherit; } 
+
+.about{
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.about-box{
+    background-color: white;
+    width: 40%;
+    height: 250px;
+    border: 2px solid salmon;
+    box-shadow: 5px 10px salmon;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+
+.header-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.basic-info-detail{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
