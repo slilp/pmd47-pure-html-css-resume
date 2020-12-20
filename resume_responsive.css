@@ -74,13 +74,13 @@
     }
     
     .container-box-detail{
-        width: 350px;
+        width: 400px;
         border: 1px solid black;
         padding: 0px;
     }
 
     .work-container-box-detail{
         padding: 0px;
-        width: 350px;
+        width: 400px;
     }
 }
