@@ -52,7 +52,7 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
     
 
     td {
@@ -66,7 +66,7 @@
     }
 
     .container-box-title{
-        width:250px;
+        width:300px;
         background-color: #e16259;
         border: 1px solid#e16259;
         color: white;
