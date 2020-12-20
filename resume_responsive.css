@@ -1,3 +1,36 @@
+@media only screen and (max-width: 820px) {
+    
+
+    td {
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+  
+
+    .skill-container-box{
+        grid-template-columns:  auto;
+    }
+
+    .container-box-title{
+        width:300px;
+        background-color: #e16259;
+        border: 1px solid#e16259;
+        color: white;
+        padding: 0px;
+    }
+    
+    .container-box-detail{
+        width: 400px;
+        border: 1px solid black;
+        padding: 0px;
+    }
+
+    .work-container-box-detail{
+        padding: 0px;
+        width: 400px;
+    }
+}
+
 @media only screen and (max-width: 576px) {
     
     .about{
@@ -52,35 +85,3 @@
 }
 
 
-@media only screen and (max-width: 820px) {
-    
-
-    td {
-        padding-left: 15px;
-        padding-right: 0px;
-    }
-  
-
-    .skill-container-box{
-        grid-template-columns:  auto;
-    }
-
-    .container-box-title{
-        width:300px;
-        background-color: #e16259;
-        border: 1px solid#e16259;
-        color: white;
-        padding: 0px;
-    }
-    
-    .container-box-detail{
-        width: 400px;
-        border: 1px solid black;
-        padding: 0px;
-    }
-
-    .work-container-box-detail{
-        padding: 0px;
-        width: 400px;
-    }
-}
