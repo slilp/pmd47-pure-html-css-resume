@@ -1,0 +1,86 @@
+@media only screen and (max-width: 576px) {
+    
+    .about{
+        display: flex;
+        justify-content: center;
+        font-family: 'Nunito Sans', sans-serif;
+    
+    }
+    
+    .about-box{
+        background-color: white;
+        height:375px;
+        border: 2px solid salmon;
+        box-shadow: 5px 10px salmon;
+        padding-left: 10px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        width: 350px;
+    }
+    
+    td {
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+  
+    .container-box{
+        grid-template-columns: auto;
+    }
+
+    .skill-container-box{
+        grid-template-columns:  auto;
+    }
+
+    .container-box-title{
+        width:350px;
+        background-color: #e16259;
+        border: 1px solid#e16259;
+        color: white;
+        padding: 0px;
+    }
+    
+    .container-box-detail{
+        width: 350px;
+        border: 1px solid black;
+        padding: 0px;
+    }
+
+    .work-container-box-detail{
+        padding: 0px;
+        width: 350px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+
+    td {
+        padding-left: 15px;
+        padding-right: 0px;
+    }
+  
+
+    .skill-container-box{
+        grid-template-columns:  auto;
+    }
+
+    .container-box-title{
+        width:350px;
+        background-color: #e16259;
+        border: 1px solid#e16259;
+        color: white;
+        padding: 0px;
+    }
+    
+    .container-box-detail{
+        width: 350px;
+        border: 1px solid black;
+        padding: 0px;
+    }
+
+    .work-container-box-detail{
+        padding: 0px;
+        width: 350px;
+    }
+}
