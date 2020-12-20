@@ -135,8 +135,7 @@ a { color: inherit; }
 
 .about-box{
     background-color: white;
-    width: 40%;
-    height: 250px;
+    height: 300px;
     border: 2px solid salmon;
     box-shadow: 5px 10px salmon;
     padding-left: 50px;
@@ -146,8 +145,14 @@ a { color: inherit; }
 
 .header-title{
     font-size: 25px;
-    font-weight: bold;
+    font-weight:900;
 }
+
+.header-title-edu{
+    font-size: 25px;
+    font-weight:900;
+}
+
 
 ul{
     list-style: none;
@@ -163,3 +168,67 @@ td {
     font-weight: 400;
 
 }
+
+
+.education,.skill,.experience{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+.container-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container-box-title{
+    width: 250px;
+    background-color: #e16259;
+    border: 1px solid#e16259;
+    color: white;
+    padding: 20px;
+}
+
+.container-box-detail{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+
+.work-container-box-detail{
+    border: 1px solid black;
+    padding: 20px;
+    width: 600px;
+}
+
+.skill-container-box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+
+.skill-container-box-detail{
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    border-bottom: 5px solid #e16259;
+}
+
+.skill-container-box-detail img{
+    width: 100%;
+    align-items: center;
+}
+
+.skill-container-box-detail img:hover{
+    width: 100%;
+    align-items: center;
+    
+}
+
